@@ -6,9 +6,11 @@
  * and open the template in the editor.
  */
 include_once 'includes/database.php';
+echo "Database Included <br>";
 $database = new Database();
+echo "New Database Connection Created<br>";
 $db = $database->getConnection();
-
+echo "Database Connected<br>";
 
 
 

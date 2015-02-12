@@ -11,7 +11,7 @@ class Database {
 
     // specify your own database credentials
     private $host = "localhost";
-    private $db_name = "schedulerprodb";
+    private $db_name = "SchedulerProDB";
     private $username = "root";
     private $password = "root";
     public $conn;

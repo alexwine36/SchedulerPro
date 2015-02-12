@@ -17,8 +17,10 @@ while ($row_contact = $stmtcon->fetch(PDO::FETCH_ASSOC)) {
     
     echo "<br> Row extracted: $con_first_name $con_last_name";
     $txt .= "<item>"
-            . "<name>$con_first_name $con_last_name $con_main_phone $con_email"
+            . "<name>$con_first_name $con_last_name "
             . "</name>"
+            . "<extra>$con_main_phone $con_email"
+            . "</extra>"
             . "<description>Contact.php"
             . "</description>"
             . "<id>$con_id"

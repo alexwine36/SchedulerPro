@@ -9,7 +9,7 @@
 $host = "localhost";
 $uname = "root";
 $pass = "root";
-$database = "schedulerprodb";
+$database = "SchedulerProDB";
 
 $connection = mysql_connect($host, $uname, $pass)
         or die("Database Connection Failed");
